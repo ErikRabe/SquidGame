@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo{
+  min-height: 400px;
+  min-width: 380px;
+  height: 50%;
+  width: 50%;
+  float: left;
+  margin-right: 10%;
+}
+
+.result-text {
+  font-weight: bold;
+  color: #f0f0f0;
+  text-shadow: 0.1vw 0.1vw 0.1vw black;
+}
+
+
+

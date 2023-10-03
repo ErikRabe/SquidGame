@@ -1,0 +1,25 @@
+.bingo-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bingo-row {
+    display: flex;
+  }
+  
+  .bingo-cell {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    background-color: #f0f0f0;
+  }
+  
+  .bingo-cell.marked {
+    background-color: #C74E29;
+    color: #fff;
+  }
